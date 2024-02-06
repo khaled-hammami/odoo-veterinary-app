@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="action_show_animal" model="ir.actions.act_window">
+        <field name="name">Show animals</field>
+        <field name="res_model">veterinaire.animal</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="animal_menu" name="Animals" action="action_show_animal" />
+</odoo>
